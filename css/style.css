@@ -9,21 +9,21 @@ body {
 #omotac {
   position: relative;
   width: 100%;
-  min-height: 55vw;
+  min-height: 50vw;
   overflow: hidden;
 }
 
 .sloj {
   position: absolute;
   width: 100vw;
-  min-height: 55vw;
+  min-height: 50vw;
   overflow: hidden;
 }
 
 .sloj .omotac-svega {
   position: absolute;
   width: 100vw;
-  min-height: 55vw;
+  min-height: 50vw;
 }
 
 .sloj .omotac-teksta {
