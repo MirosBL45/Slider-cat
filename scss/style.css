@@ -19,22 +19,19 @@ body {
   min-height: 50vw;
   overflow: hidden;
 }
-
 .sloj .omotac-svega {
   position: absolute;
   width: 100vw;
   min-height: 50vw;
 }
-
 .sloj .omotac-teksta {
   width: 25%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  color: white;
+  color: hsl(0, 0%, 100%);
 }
-
 .sloj img {
   width: 35%;
   position: absolute;
@@ -42,34 +39,30 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .sloj h1 {
   font-size: 2em;
 }
 
 .donji {
-  background: #212121;
+  background: #328757;
   z-index: 1;
 }
-
 .donji .omotac-teksta {
   right: 5%;
 }
-
 .donji h1 {
-  color: #ffae00;
+  color: hsl(41, 100%, 50%);
 }
 
 .gornji {
-  background: #ededed;
-  color: #212121;
+  background: hsl(316, 36%, 71%);
+  color: hsl(0, 0%, 13%);
   z-index: 2;
   width: 50vw;
 }
-
 .gornji .omotac-teksta {
   left: 5%;
-  color: #212121;
+  color: hsl(0, 0%, 13%);
 }
 
 .drska {
@@ -78,7 +71,7 @@ body {
   left: 50%;
   height: 100%;
   display: block;
-  background: #ffae00;
+  background: hsl(41, 100%, 50%);
   width: 5px;
   z-index: 3;
 }
@@ -95,7 +88,6 @@ body {
   margin-left: -1000px;
   width: calc(50vw + 1000px);
 }
-
 .iskrivljen .gornji .omotac-svega {
   transform: skew(30deg);
   margin-left: 1000px;
@@ -109,7 +101,6 @@ body {
     font-size: 1em;
   }
 }
-
 @media (max-width: 500px) {
   body {
     font-size: 60%;
